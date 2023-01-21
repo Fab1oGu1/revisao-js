@@ -1,7 +1,7 @@
 const  array = [0, 8, 23, 16, 10, 15, 41, 12, 13]
 
 const cont = array.length 
-const reverso = [cont] //O array reverso deve ter o mesmo tamanho que o "array referência.
+const reverso = [cont] //O array reverso deve ter o mesmo tamanho que o array referência.
 
 var i = 0
 
