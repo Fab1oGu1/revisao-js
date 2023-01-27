@@ -34,3 +34,17 @@ A regra para entrar na montanha russa do terror é: ter, no mínimo, 1.5m de alt
 a) Escreva uma **função** que **receba** este array e **devolva** outro array somente com as pessoas que **tem permissão para entrar** no brinquedo
 
 b) Escreva uma **função** que **receba** este array e **devolva** outro array somente com as pessoas que **não podem entrar** no brinquedo.
+
+6) Você foi contratado por um escritório médico para organizar a agenda de consultas
+
+```jsx
+const consultas = [
+  { nome: "João", dataDaConsulta: "01/10/2021" },
+  { nome: "Pedro", dataDaConsulta: "02/07/2021" },
+  { nome: "Paula", dataDaConsulta: "03/11/2021" },
+  { nome: "Márcia",  dataDaConsulta: "04/05/2021" }
+]
+
+```
+
+A) A sua primeira tarefa é criar uma função que receba o **array** consultas como parâmetro e retorne um **array de consultas ordenado pelos nomes dos pacientes (em ordem alfabética)**
