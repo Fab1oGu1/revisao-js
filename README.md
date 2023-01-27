@@ -48,3 +48,19 @@ const consultas = [
 ```
 
 A) A sua primeira tarefa é criar uma função que receba o **array** consultas como parâmetro e retorne um **array de consultas ordenado pelos nomes dos pacientes (em ordem alfabética)**
+
+7) Agora, pediram para você ajudar a fazer uma funcionalidade de um banco digital. Antes de explicar a sua tarefa, você precisa entender como eles guardam as contas dos clientes. Basicamente, eles salvam o nome do clientes, o saldo total e uma lista contendo todas as compras realizadas pelo cliente. Veja abaixo:
+
+```
+const contas = [
+	{ cliente: "João", saldoTotal: 1000, compras: [100, 200, 300] },
+	{ cliente: "Paula", saldoTotal: 7500, compras: [200, 1040] },
+	{ cliente: "Pedro", saldoTotal: 10000, compras: [5140, 6100, 100, 2000] },
+	{ cliente: "Luciano", saldoTotal: 100, compras: [100, 200, 1700] },
+	{ cliente: "Artur", saldoTotal: 1800, compras: [200, 300] },
+	{ cliente: "Soter", saldoTotal: 1200, compras: [] }
+]
+
+```
+
+A sua tarefa é: faça uma função que manipule um **array** com os objetos do tipo acima e atualize o **saldo total** individual de cada um, **sem criar um novo** array. Retorne o array original. 
